@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', ()=> {
   }, {threshold:0.15});
   document.querySelectorAll('[data-animate]').forEach(el=> obs.observe(el));
 
-  // form validation (if contact page exists)
+  // form validation 
   const form = document.querySelector('form#contactForm');
   if(form){
     form.addEventListener('submit', (e)=>{
