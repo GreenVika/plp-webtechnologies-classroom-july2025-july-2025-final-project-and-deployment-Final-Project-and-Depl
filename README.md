@@ -30,9 +30,11 @@ shavika-enterprises/
 ├─ about.html
 ├─ services.html
 ├─ contact.html
-├─ css/
-│  └─ style.css
-├─ js/
-│  └─ script.js
+|─ style.css
+|─ script.js
 ├─ README.md
 
+## 🚀 Deployment
+The website is live at:https://greenvika.github.io/plp-webtechnologies-classroom-july2025-july-2025-final-project-and-deployment-Final-Project-and-Depl/
+
+Thank you for viewing!
