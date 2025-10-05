@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Shavika Enterprises</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo"><span>SHAVIKA ENTERPRISES</span></a>
+      <nav id="site-nav" class="site-nav">
+        <a href="index.html">Home |</a>
+        <a href="about.html">About |</a>
+        <a href="services.html">Services |</a>
+        <a href="contact.html" class="btn">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+<main class="container">
+  <h1>Contact & Pickup Request</h1>
+  <form id="contactForm" action="https://formspree.io/f/your-id" method="POST" novalidate>
+    <label>Name* <input type="text" name="name" required></label><br><br>
+    <label>Email* <input type="email" name="email" required></label><br><br>
+    <label>Phone <input type="tel" name="phone"></label><br><br>
+    <label>Address* <input type="text" name="address" required></label><br><br>
+    <label>Items <textarea name="message"></textarea></label><br><br>
+    <button type="submit" class="btn primary">Send Request</button>
+  </form>
+</main>
+<script src="js/script.js"></script>
+</body>
+</html>
